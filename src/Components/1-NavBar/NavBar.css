@@ -1,0 +1,99 @@
+.MainNav
+{
+    margin: 0px;
+    display: grid;
+}
+
+.TopNav
+{
+    background-color: #103178;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #D9C800;
+}
+.Text
+{
+    font-family: 'Harmattan';
+    font-weight: 700;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.DownNav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+}
+.Category
+{
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    background-color: whitesmoke;
+    border: 1px whitesmoke solid;
+    border-radius: 30px;
+    padding: 1em;
+    font-family: 'Kalam' ;
+    font-weight: 300;
+
+}
+
+.C1
+{
+    padding: 1em  ;
+    transition: 0.9s ;
+}
+
+.C1:hover
+{
+color: #103178;
+transition: 0.8s ;
+font-weight: 700;
+font-size: 25px;
+}
+.Right-Nav
+{
+    display: flex;
+    align-items: center;
+}
+.UserBtn
+{
+    border: none;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.UserBtn:hover
+{
+    color: #103178;
+    font-weight: 700;
+    transition: 0.4s;
+}
+@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+{
+.MainNav
+{
+    display: none;
+}    
+.MainVideo
+{
+    width: max-content;
+}
+.BigBoxMiddel
+{
+width: 77em;
+}
+.MainProduct
+{
+
+}
+}
+  

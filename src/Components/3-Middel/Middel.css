@@ -1,0 +1,86 @@
+.MainMiddel
+{
+    padding: 1em;
+    margin: 2em;
+    display: grid;
+}
+
+.BigBoxMiddel
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Col-B1,
+.Col-B2,
+.Col-B3
+{
+    display: grid;
+    padding: 5em;
+}
+.Col-B1,
+.Col-B2
+{
+    content: "";
+    border-right: 1px #8d8d8d solid;
+    display: block;
+}
+.HeaderTitle
+{
+    font-size: 30px;
+    font-family: 'Kalam' ;
+    font-weight: 700;
+}
+.iconabout
+{
+    text-align: center;
+    transition: 0.4s;
+}
+.iconabout:hover
+{
+color: #103178;
+transition: 0.5s;
+}
+
+.infotextar
+{
+    font-family: 'Harmattan';
+    font-weight: 700;
+    border-bottom: 1px #8d8d8d dashed;
+    padding: 1em;
+    direction: rtl;
+    transition: 0.4s;
+
+}
+.infotexten
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    padding: 1em;
+    direction: ltr;
+    transition: 0.4s;
+}
+.infotextar:hover,
+.infotexten:hover
+{
+    color: #D9C800;
+    transition: 0.5s;    
+}
+.iconn
+{
+
+}
+@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+{
+
+.BigBoxMiddel
+{
+display: grid;
+}
+.infotextar,
+.infotexten
+{
+    font-size: 5em;
+}
+
+}
+  

@@ -1,0 +1,62 @@
+.MainWhyIbrim
+{
+    display: grid;
+    margin: 1em;
+}
+.BoxWhyIbrim
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TiltleOfWhyIbrim
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    text-align: center;
+    font-size: 35px;
+    padding: 1em;
+    transition: 0.6s;
+}
+.TiltleOfWhyIbrim:hover
+{
+    color: #D9C800;
+    transition: 0.4s;
+}
+.WhyAR
+{
+    font-family: 'Harmattan';
+    font-weight: 700;
+    padding: 1em;
+    direction: rtl;
+    transition: 0.6s;
+}
+.WhyEN
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    padding: 1em;
+    direction: ltr;
+    transition: 0.6s;
+}
+.WhyAR:hover,
+.WhyEN:hover
+{
+color: #D9C800;
+transition: 0.4s;
+}
+.Col-1W
+{
+    display: grid;
+    width: 40em;
+}
+.picwhy
+{
+    transition: 0.6s;
+    width: 30em;
+}
+.picwhy:hover
+{
+    transition: 0.4s;
+    width: 40em;
+}

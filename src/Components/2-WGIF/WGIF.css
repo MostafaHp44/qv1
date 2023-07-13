@@ -1,0 +1,24 @@
+.MainVideo
+{
+    display: flex;
+    justify-content: center;
+    display: grid;
+}
+
+
+.video-js
+{
+    background-color: #fff;
+    width: 130em;
+}
+@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+{
+
+.MainVideo
+{
+    width: max-content;
+}
+
+
+}
+  

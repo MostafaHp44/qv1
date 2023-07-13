@@ -1,0 +1,81 @@
+.MainNewsletter
+{
+    display: grid;
+}
+.NewsLetterBox
+{
+    background-color: #184989;
+    padding:1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+.Text-1AR
+{
+    font-family: 'Harmattan';
+    font-weight: 700;
+    direction: rtl;
+    transition: 0.4s;
+    color: #fff;
+    transition: 0.6s;
+}
+.Text-1EN
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    direction: ltr;
+    transition: 0.4s;
+    color: #fff;
+    transition: 0.6s;
+}
+.Text-1AR:hover,
+.Text-1EN:hover
+{
+transition: 0.4s;
+color: #D9C800;
+}
+.newletter
+{
+    width: 30em;
+    height: 3em;
+    border: 1px #fff solid;
+    border-radius: 30px;
+}
+.Submit
+{
+border: 1px #fff solid;
+border-radius: 30px;
+color: black;
+height: 3em;
+background-color: white;
+width: 6em;
+transition: 0.5s;
+}
+.Submit:hover
+{
+    background-color: #D9C800;
+    transition: 0.3s;
+}
+.video-js-news
+{
+    width: 40em;
+}
+
+@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+{
+
+.NewsLetterBox
+{
+width: max-content;
+}
+.BoxWhyIbrim
+{
+    width: 80em;
+}
+.MainFooter
+{
+    width: 80em;
+}
+}
+  
