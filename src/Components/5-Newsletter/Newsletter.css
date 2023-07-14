@@ -62,7 +62,7 @@ transition: 0.5s;
     width: 40em;
 }
 
-@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+@media only screen and (min-width: 240px ) and (max-width: 1024px ) 
 {
 
 .NewsLetterBox
@@ -70,10 +70,6 @@ transition: 0.5s;
 width: max-content;
 }
 .BoxWhyIbrim
-{
-    width: 80em;
-}
-.MainFooter
 {
     width: 80em;
 }

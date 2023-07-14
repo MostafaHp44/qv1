@@ -29,7 +29,7 @@ const Footer = () => {
             <div className='Col-3F'>
             <button className="button-54" role="button"><span className="text"><Link to='/login'>login</Link></span></button>
 
-            <button className="button-59" role="button"><Link to='/register'>Register</Link></button>
+            <button className="button-54" role="button"><Link to='/register'>Register</Link></button>
 
             </div>
         </div>

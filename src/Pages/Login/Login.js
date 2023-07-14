@@ -26,9 +26,6 @@ const Login = () => {
 
         <div className='FirstHalf'>
 
-        <div className="container">
-        <div className="screen">
-          <div className="screen__content">
             <form className="login">
 
               <div className="login__field">
@@ -41,34 +38,27 @@ const Login = () => {
               
               <button className="button login__submit">
                 <span className="button__text">Log In Now</span>
-              </button>		
+              </button>
+
               <div className='OrRegisterwith'> 
-              <span>If You dont have account you can</span> <Link to='/register'>register</Link>
+              <span>If You dont have account you can</span> <Link to='/register' style={{textDecoration:"none",color:"black"}}>register</Link>
               </div>
+
             </form>
+
             <div className="social-login">
-              <h3>log in via</h3>
+              <h3>login With</h3>
               <div className="social-icons">
                 <a className="social-login__icon fab"><UilFacebook/></a>
                 <a className="social-login__icon fab"><UilInstagramAlt/></a>
                 <a className="social-login__icon fab"><UilGoogle/></a>
               </div>
-            </div>
+            </div>    
 
-          </div>
-          <div className="screen__background">
-            <span className="screen__background__shape screen__background__shape4" />
-            <span className="screen__background__shape screen__background__shape3" />		
-            <span className="screen__background__shape screen__background__shape2" />
-            <span className="screen__background__shape screen__background__shape1" />
-          </div>		
-        </div>
-       </div>
-             
         </div>
 
         <div className='SecHalf'>
-        <video
+            <video
     id="my-player"
     src={secvid}
     className="secvid"
@@ -79,7 +69,7 @@ const Login = () => {
     preload="auto"
     data-setup='{}'>
  
-</video>
+            </video>
         </div>
 
     </div>

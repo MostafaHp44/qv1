@@ -1,12 +1,33 @@
 import './Middel.css'
 import { UilUserExclamation,UilTruck,UilPercentage} from '@iconscout/react-unicons'
 import React, { useState, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
 const Middel = () => {
+
+    AOS.init({
+        disable: false,
+        startEvent: 'DOMContentLoaded', 
+        initClassName: 'aos-init', 
+        animatedClassName: 'aos-animate', 
+        useClassNames: false, 
+        disableMutationObserver: false, 
+        debounceDelay: 50, 
+        throttleDelay: 99, 
+        offset: 120, 
+        delay: 600,
+        duration: 400, 
+        easing: 'ease', 
+        once: false, 
+        mirror: false,
+        anchorPlacement: 'top-bottom', 
+      });
+
     return (
     <div className="MainMiddel">
-        <div className='BigBoxMiddel'>
+        <div className='BigBoxMiddel' data-aos="fade-up">
 
             <div className='Col-B1'>
                 <div className='iconabout'> <UilUserExclamation size="70" className='iconn'/><br/> <span className='HeaderTitle'> About Us</span></div>

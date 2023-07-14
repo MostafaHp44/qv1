@@ -69,7 +69,7 @@ transition: 0.5s;
 {
 
 }
-@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+@media only screen and (min-width: 240px ) and (max-width: 1024px ) 
 {
 
 .BigBoxMiddel
@@ -81,6 +81,12 @@ display: grid;
 {
     font-size: 5em;
 }
-
+.Col-B1,
+.Col-B2,
+.Col-B3
+{
+    border-bottom: 1px #8d8d8d solid;
+    border-right: none;
+}
 }
   

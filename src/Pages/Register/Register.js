@@ -1,5 +1,5 @@
 import './Register.css'
-import reg from './reg.mp4'
+import reg from './reg2.mp4'
 import { UilFacebook,UilInstagramAlt,UilGoogle} from '@iconscout/react-unicons'
 import { Link } from 'react-router-dom'
 import {React,useEffect,useState} from 'react'
@@ -28,9 +28,7 @@ const Register = () => {
     return (
     <div className="MainRegister">
 <div className='FirstHalf'>
-<div className="container">
-        <div className="screen">
-          <div className="screen__content">
+
             <form className="register">
 
               <div className="register__field">
@@ -53,9 +51,10 @@ const Register = () => {
                 <span className="button__text">Register</span>
               </button>		
               <div className='OrLoginwith'> 
-              <span>If You  have account you can</span> <Link to='/login'>Login</Link>
+              <span>If You  have account you can</span> <Link to='/login' style={{textDecoration:"none",color:"black"}}>Login</Link>
               </div>
             </form>
+
             <div className="social-register">
               <h3>Register With</h3>
               <div className="social-icons">
@@ -64,16 +63,10 @@ const Register = () => {
                 <a className="social-register__icon fab"><UilGoogle/></a>
               </div>
             </div>
-          </div>
-          <div className="screen__background">
-            <span className="screen__background__shape screen__background__shape4" />
-            <span className="screen__background__shape screen__background__shape3" />		
-            <span className="screen__background__shape screen__background__shape2" />
-            <span className="screen__background__shape screen__background__shape1" />
-          </div>		
-        </div>
-       </div>
+
 </div>
+
+
 <div className='SecHalf'>
 <video
     id="my-player"

@@ -60,3 +60,33 @@ transition: 0.4s;
     transition: 0.4s;
     width: 40em;
 }
+@media only screen and (min-width: 240px ) and (max-width: 1024px ) 
+{
+    .TiltleOfWhyIbrim
+    {
+        font-size: 8em;
+        display: grid;
+    }
+    .BoxWhyIbrim
+    {
+        display: grid;
+    }
+    .Col-1W,
+    .Col-2W
+    {
+        width: 75em;
+    }
+    .picwhy
+    {
+        width: 60em;
+    }
+    .picwhy:hover
+    {
+        width: 70em;
+    }
+    .WhyAR,
+    .WhyEN
+    {
+        font-size: 5em;
+    }
+}

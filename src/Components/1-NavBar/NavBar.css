@@ -77,23 +77,11 @@ font-size: 25px;
     font-weight: 700;
     transition: 0.4s;
 }
-@media only screen and (min-width: 374px ) and (max-width: 1024px ) 
+@media only screen and (min-width: 240px ) and (max-width: 1024px ) 
 {
 .MainNav
 {
     display: none;
 }    
-.MainVideo
-{
-    width: max-content;
-}
-.BigBoxMiddel
-{
-width: 77em;
-}
-.MainProduct
-{
-
-}
 }
   
