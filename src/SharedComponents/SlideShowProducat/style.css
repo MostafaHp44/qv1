@@ -1,0 +1,56 @@
+
+  
+  
+  
+  
+  #progress {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-90deg);
+  }
+  
+  circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+  }
+  
+  .bg {
+    stroke: var(--accent);
+    opacity: 0.3;
+  }
+  
+  #progress .indicator {
+    stroke: var(--accent);
+  }
+  
+  .SlideProducat {
+    display: flex;
+    list-style: none;
+    height: 300px;
+    overflow-x: scroll;
+    padding: 20px 0;
+    flex: 0 0 600px;
+    margin: 0 auto;
+    width: 25em;
+  }
+  
+  
+  
+ 
+  
+  ::-webkit-scrollbar-corner {
+    background: #fff3;
+  }
+  
+  .S1 {
+    flex: 0 0 200px;
+    background: #fff;
+    margin: 0 20px 0 0;
+  }
+  
+  li:last-of-type {
+    margin: 0;
+  }
+  

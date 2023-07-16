@@ -1,0 +1,116 @@
+.MainProducat,
+.Col-2Pro,
+.Box1-Pro
+{
+    display: grid;
+}
+.Box1-Pro::after,
+.MainProducat::after
+{
+content: "";
+display: block;
+border-bottom: 1px #8d8d8d solid;
+padding: 2em;
+}
+.SecPro
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TitlPro-AR
+{
+    font-family: 'Harmattan';
+    font-weight: 700;
+    font-size: 45px;
+    border-bottom: 1px #8d8d8d dashed;
+    padding: 0.5em;
+    direction: rtl;
+    transition: 0.4s;
+}
+.TitlPro-EN,
+.Price-Number
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    font-size: 45px;
+    padding: 0.5em;
+    direction: ltr;
+    transition: 0.4s;
+}
+.btn-q
+{
+    border: none;
+    border-radius: 25px;
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    width: 5em;
+}
+.Quantity
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.SubmitOrder
+{
+    padding-top: 2em;
+}
+.btn-submit
+{
+    border: none;
+    color: #103178;
+    font-family: 'Kalam';
+    font-weight: 300;
+    border-radius: 25px;
+    width: 20em;
+    height: 4em;
+    transition: 0.7s;
+    font-size: 20px;
+}
+.btn-submit:hover
+{
+color: white;
+background-color: red;
+transition: 0.4s;
+}
+.T1-AR,
+.T2-AR
+{
+    font-family: 'Harmattan';
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0.5em;
+    direction: rtl;
+    transition: 0.4s;
+}
+.T1-EN,
+.T2-EN
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 0.5em;
+    direction: ltr;
+    transition: 0.4s;
+}
+.Discription-AR
+{
+    direction: rtl;
+}
+.Discription-EN
+{
+    direction: ltr;
+}
+.Pic-Producat
+{
+width: 30em;
+border-radius: 25px;
+transition: 0.7s;
+}
+.Pic-Producat:hover
+{
+    box-shadow: 1px 1px 10px 4px royalblue;
+transition: 0.5s;
+}

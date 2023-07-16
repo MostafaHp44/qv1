@@ -1,0 +1,14 @@
+.MainCurtains
+{
+    display: grid;
+}
+.Items
+{
+    font-family: 'Kalam' ;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 0.5em;
+    direction: ltr;
+    transition: 0.4s;
+    text-align: center;
+}

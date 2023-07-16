@@ -51,13 +51,21 @@
     padding: 1em  ;
     transition: 0.9s ;
 }
-
+.C1>a
+{
+    text-decoration: none;
+    color: black;
+}
 .C1:hover
 {
-color: #103178;
 transition: 0.8s ;
 font-weight: 700;
 font-size: 25px;
+}
+.C1>a :hover
+{
+    color: #103178;
+
 }
 .Right-Nav
 {

@@ -1,0 +1,9 @@
+.MainShopNow
+{
+    display: flex;
+    justify-content: center;
+}
+.ShopNow
+{
+    width: 50em;
+}

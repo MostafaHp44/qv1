@@ -1,0 +1,30 @@
+.MainManageProducat
+{
+    display: grid;
+}
+.SecRow
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Menu-ManageProducat
+{
+    border: 1px #fff solid ;
+    display: grid;
+}
+.AddProducat,
+.UpdateProducat,
+.DeleteProducat
+{
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    padding: 1em;
+    direction: ltr;
+    transition: 0.4s;
+}
+.btnmanage
+{
+    border: none;
+    border-radius: 25px;
+    padding: 1em;
+}

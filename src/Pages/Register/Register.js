@@ -32,19 +32,19 @@ const Register = () => {
             <form className="register">
 
               <div className="register__field">
-                <input type="text" className="login__input" placeholder="User name" value={username} onChange={handelusername}/>
+                <input type="text" className="login__input" placeholder="User name" value={username} onChange={handelusername} required/>
               </div>
 
               <div className="register__field">
-                <input type="text" className="register__input" placeholder="Enter your Email" value={mail} onChange={handelemail}/>
+                <input type="text" className="register__input" placeholder="Enter your Email" value={mail} onChange={handelemail} required/>
               </div>
 
               <div className="register__field">
-                <input type="password" className="login__input" placeholder="Password" value={password} onChange={handelpassword}/>
+                <input type="password" className="login__input" placeholder="Password" value={password} onChange={handelpassword} required/>
               </div>
 
               <div className="register__field">
-                <input type="text" className="register__input" placeholder="Phone Number" value={phone} onChange={handelphone}/>
+                <input type="tel" className="register__input" placeholder="Phone Number" value={phone} onChange={handelphone} required/>
               </div>
 
               <button className="button register__submit">

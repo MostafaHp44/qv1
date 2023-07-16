@@ -1,0 +1,130 @@
+.BoxAdmin
+{
+    display: grid;
+}
+.Admin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    padding: 1em;
+    direction: ltr;
+    transition: 0.4s;
+    font-size: 25px;
+}
+.picofadmin
+{
+    border: 1px #fff solid;
+    border-radius: 30px;
+    width: 3em;
+}
+.Logout-Admin
+{
+    border: none;
+    background-color:#8d8d8d ;
+    color: black;
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    border-radius: 30px;
+    padding: 0.5em;
+}
+.Logout-Admin:hover
+{
+background-color: #049644;
+color: white;
+}
+.WelcomeAdmin
+{
+display: flex;
+justify-content: center;
+}
+.AdminVid
+{
+    width: 70em;
+}
+.Widgates
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 2em;
+}
+.W1-USER,
+.W2-Product,
+.W3-Reports
+{
+    background-color: #049644;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.7s;
+    font-family: 'Kalam' ;
+    font-weight: 300;
+    border-radius: 30px;
+}
+.W1-USER:hover,
+.W2-Product:hover,
+.W3-Reports:hover
+{
+    transition: 0.9s;
+    color: black;
+    width: 25em;
+}
+.Manage-User>a,
+.Manage-Product>a,
+.ShowReports>a
+
+{
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (min-width: 240px ) and (max-width: 1024px ) 
+{
+    .Widgates
+    {
+        display: grid;
+        gap: 2em;
+    }
+    .W1-USER,
+    .W2-Product,
+    .W3-Reports
+    {
+    background-color: #049644;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.7s;
+    font-family: 'Kalam';
+    font-weight: 300;
+    border-radius: 30px;
+    font-size: 3em;
+    }
+    .Admin
+    {
+        
+        font-size: 3em;
+    }
+    .icnonuser
+    {
+        width: 2em;
+    height: 3em;
+    }
+    .picofadmin
+    {
+        width: 5em;
+    }
+}
