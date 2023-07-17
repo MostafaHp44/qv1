@@ -38,7 +38,7 @@ const Middel = () => {
 
             <div className='Col-B2'>
 
-            <div className='iconabout'> <UilTruck size="70"/><br/> <span className='HeaderTitle'> About delivery</span></div>
+            <div className='iconabout'> <UilTruck size="70" className='iconn'/><br/> <span className='HeaderTitle'> About delivery</span></div>
             <div className='infotextar'><span>نحاول بذل اقصي جهد لتخفيض تكلفه النقل والشحن والوصول الي  درجه عاليه وسريعه في التوصيل لجميع انحاء المحافظات</span></div>
             <div className='infotexten'><span>We try to make every effort to reduce the cost of transportation and shipping and to reach a high and fast level in delivery to all parts of the governorates</span></div>
 
@@ -46,7 +46,7 @@ const Middel = () => {
 
             <div className='Col-B3'>
 
-            <div className='iconabout'> <UilPercentage size="70"/><br/> <span className='HeaderTitle'> Offer's</span></div>
+            <div className='iconabout'> <UilPercentage size="70" className='iconn'/><br/> <span className='HeaderTitle'> Offer's</span></div>
             <div className='infotextar'><span>ترقبوا دائما عروضنا وكونو في الموعد للحصول علي قسائم شراء تصل الي 1000  جنيه مصري او خصم يصل الي 35%</span></div>
             <div className='infotexten'><span>Always stay tuned for our offers and be on time to get purchase vouchers of up to 1000 Egyptian pounds or a discount of up to 35% </span></div>
 
