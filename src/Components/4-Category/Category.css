@@ -43,13 +43,25 @@
 transition: 0.3s;
 filter: blur(5px);
 }
-.cat,
-.cat,
 .cat
 {
     font-size: 20px;
     font-family: 'Kalam' ;
     font-weight: 300;
+}
+.cat>a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.9s;
+    font-size: 20px;
+    font-family: 'Kalam' ;
+    font-weight: 300;
+}
+.cat>a:hover
+{
+    color: #D3C403;
+    transition: 0.9s;
 }
 .Col-P1
 {
@@ -142,8 +154,16 @@ width: 75em;
 color: #D3C403;
 cursor: pointer;
 }
-.cat
+.cat>a
 {
 font-size: 6em;
+transition: 0.11s;
 }
+.cat>a:hover
+{
+    color: #D3C403;
+    transition: 0.9s;
 }
+
+}
+  
