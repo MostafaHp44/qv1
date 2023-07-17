@@ -6,6 +6,7 @@ import { UilHeartAlt,UilShoppingBag} from '@iconscout/react-unicons'
 import pic1 from './c1.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import BurgerMenu from '../../Components/0-BurgerMenu/BurgerMenu'
 
 
 
@@ -46,6 +47,7 @@ const ProductPage = () => {
         
         <div className='FirtPro'>
             <NavBar/>
+            <BurgerMenu/>
         </div>
 
         <div className='SecPro'>

@@ -3,12 +3,15 @@ import './User.css'
 import user from './User.mp4'
 import { UilUsersAlt,UilSitemap,UilAnalytics} from '@iconscout/react-unicons'
 import { Link } from 'react-router-dom'
+import BurgerMenu from '../../Components/0-BurgerMenu/BurgerMenu'
+
 
 
 const User = () => {
     return (
 
         <div className='MainUser'>
+            <BurgerMenu/>
         <div className='BoxUser'>
 
                 <div className='User'>

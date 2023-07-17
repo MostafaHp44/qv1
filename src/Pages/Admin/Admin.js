@@ -3,11 +3,14 @@ import React from 'react';
 import wad from './AdminVid/Admin2.mp4'
 import { UilUsersAlt,UilSitemap,UilAnalytics} from '@iconscout/react-unicons'
 import { Link } from 'react-router-dom'
+import BurgerMenu from '../../Components/0-BurgerMenu/BurgerMenu'
+
 
 
 const Admin = () => {
     return (
     <div className='MainAdmin'>
+         <BurgerMenu/>
         <div className='BoxAdmin'>
 
                 <div className='Admin'>

@@ -114,3 +114,29 @@ transition: 0.7s;
     box-shadow: 1px 1px 10px 4px royalblue;
 transition: 0.5s;
 }
+
+@media only screen and (min-width: 240px ) and (max-width: 1024px ) 
+{
+    .SecPro
+    {
+        display: grid;
+    }
+    .Col-1Pro
+    {
+        margin-top: 22em;
+        text-align: center;
+    }
+    .Pic-Producat
+    {
+        width: 20em;
+    }
+    .SubmitOrder,
+    .Price-Pro
+    {
+        text-align: center;
+    }
+    .btn-submit
+    {
+        width: 10em;
+    }
+}
