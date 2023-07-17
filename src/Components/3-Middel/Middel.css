@@ -65,10 +65,7 @@ transition: 0.5s;
     color: #D9C800;
     transition: 0.5s;    
 }
-.iconn
-{
 
-}
 @media only screen and (min-width: 240px ) and (max-width: 1024px ) 
 {
 
@@ -88,5 +85,18 @@ display: grid;
     border-bottom: 1px #8d8d8d solid;
     border-right: none;
 }
+.infotextar,
+.infotexten
+{
+    width: 12em;
 }
-  
+.HeaderTitle
+{
+    font-size: 8em;
+}
+.iconn
+{
+width: 12em;
+height: 12em;
+}
+}
