@@ -1,6 +1,7 @@
 import  "./Category.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { Link } from "react-router-dom";
 
 const CategoryProduct=()=>{
 
@@ -29,9 +30,9 @@ const CategoryProduct=()=>{
         <div className="TitleOfProduct"><span>Our Product's</span></div>
 
         <div className="BigBox"  >
-            <div className="Col-P1"><span className="cat">Curtains</span></div>
-            <div className="Col-P2"><span className="cat">Fabric it</span></div>
-            <div className="Col-P3"><span className="cat">Furniture</span></div>
+            <div className="Col-P1"><span className="cat"><Link to='/curtains'>Curtains</Link></span></div>
+            <div className="Col-P2"><span className="cat"><Link to='/fabricit'>Fabric it</Link></span></div>
+            <div className="Col-P3"><span className="cat"><Link to='/furniture'>Furniture</Link></span></div>
         </div>
 
     </div>
