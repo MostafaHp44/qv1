@@ -2,6 +2,7 @@ import './cardproducat.css'
 import   c1 from  './c1.jpg'
 import { UilHeartAlt,UilShoppingBag} from '@iconscout/react-unicons'
 import {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 const CardProducat = () => {
     const[isfill,setisfill]=useState(false)
@@ -34,7 +35,7 @@ const CardProducat = () => {
 
             </div>
             <div className='Add-P'>
-                <button className='b1' >More Info</button>
+                <button className='b1' > <Link to='/pro'>More Info</Link></button>
                 <button className='b2' onClick={handelfavit}>{isfill? <UilHeartAlt fill="red"/> :<UilHeartAlt/>}</button>
                 <button className='b3' onClick={handelisadd}>{isadd ?<UilShoppingBag color="royalblue"/>:<UilShoppingBag/>}</button>
 
