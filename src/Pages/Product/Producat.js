@@ -4,11 +4,32 @@ import {React,useState} from 'react';
 import Badge from 'react-bootstrap/Badge';
 import { UilHeartAlt,UilShoppingBag} from '@iconscout/react-unicons'
 import pic1 from './c1.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
 
 
 const ProductPage = () => {
+
+    AOS.init({
+        disable: false,
+        startEvent: 'DOMContentLoaded', 
+        initClassName: 'aos-init', 
+        animatedClassName: 'aos-animate', 
+        useClassNames: false, 
+        disableMutationObserver: false, 
+        debounceDelay: 50, 
+        throttleDelay: 99, 
+        offset: 120, 
+        delay: 600,
+        duration: 400, 
+        easing: 'ease', 
+        once: false, 
+        mirror: false,
+        anchorPlacement: 'top-bottom', 
+      });
+
     const[isfill,setisfill]=useState(false)
     const[isadd,setisadd]=useState(false)
 
@@ -28,11 +49,12 @@ const ProductPage = () => {
         </div>
 
         <div className='SecPro'>
-            <div className='Col-1Pro'>
+
+            <div className='Col-1Pro' data-aos="flip-up">
                 <img src={pic1} alt='' className='Pic-Producat'></img>
             </div>
 
-            <div className='Col-2Pro'>
+            <div className='Col-2Pro' data-aos="zoom-in-up">
 
                <div className='Box1-Pro'>
                <div className='TitlePro'>

@@ -78,8 +78,12 @@ font-size: 25px;
     background-color: #fff;
     transition: 0.5s;
 }
+.UserBtn>a
+{
+    color: black;
+}
 
-.UserBtn:hover
+.UserBtn>a:hover
 {
     color: #103178;
     font-weight: 700;
@@ -87,9 +91,33 @@ font-size: 25px;
 }
 @media only screen and (min-width: 240px ) and (max-width: 1024px ) 
 {
-.MainNav
+/* .TopNav
+{
+    width: 81em;
+    padding-bottom: 3em;
+}
+.DownNav
 {
     display: none;
 }    
+.text-transition 
+{
+font-size: 32px;
+} */
+.MainNav
+{
+    display: none;
 }
-  
+.MainBurgerMenu
+{
+    display: block;
+}
+}
+@media only screen and (min-width: 1025px ) 
+
+{
+.MainBurgerMenu
+{
+    display: none;
+}
+}

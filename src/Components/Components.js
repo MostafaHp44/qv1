@@ -1,3 +1,4 @@
+import BurgerMenu from './0-BurgerMenu/BurgerMenu';
 import NavBar from './1-NavBar/NavBar';
 import WGIF from './2-WGIF/WGIF';
 import Middel from './3-Middel/Middel';
@@ -8,6 +9,7 @@ import Footer from './7-Footer/Footer';
 const Componentss = () => {
     return (
     <div>
+      <BurgerMenu/>
       <NavBar/>
       <WGIF/>
       <Middel/>

@@ -1,5 +1,5 @@
 import './NavBar.css'
-import {UilUserPlus,UilShoppingBag} from '@iconscout/react-unicons'
+import {UilUserPlus,UilShoppingBag,UilHeartAlt} from '@iconscout/react-unicons'
 import {React} from 'react'
 import logo1 from './1.png'
 import Badge from 'react-bootstrap/Badge';
@@ -35,9 +35,10 @@ const NavBar = () => {
         </div>
 
         <div className='Right-Nav'>
-            <button className='UserBtn'><UilUserPlus size="30"/></button>
-            <button className='UserBtn'><UilShoppingBag size="30"/><Badge pill bg="primary">0</Badge>
-</button>
+            <button className='UserBtn'><Link to='/login'> <UilUserPlus size="30"/></Link> </button>
+            <button className='UserBtn'><Link to='/cart'> <UilShoppingBag size="30"/><Badge pill bg="primary">0</Badge></Link></button>
+            <button className='UserBtn'><Link to='favitem'> <UilHeartAlt size="30"/><Badge pill bg="danger">0</Badge></Link></button>
+
         </div>
 
        

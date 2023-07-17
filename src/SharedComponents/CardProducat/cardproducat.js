@@ -3,8 +3,30 @@ import   c1 from  './c1.jpg'
 import { UilHeartAlt,UilShoppingBag} from '@iconscout/react-unicons'
 import {useState} from 'react'
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 
 const CardProducat = () => {
+
+    AOS.init({
+        disable: false,
+        startEvent: 'DOMContentLoaded', 
+        initClassName: 'aos-init', 
+        animatedClassName: 'aos-animate', 
+        useClassNames: false, 
+        disableMutationObserver: false, 
+        debounceDelay: 50, 
+        throttleDelay: 99, 
+        offset: 120, 
+        delay: 600,
+        duration: 400, 
+        easing: 'ease', 
+        once: false, 
+        mirror: false,
+        anchorPlacement: 'top-bottom', 
+      });
+
     const[isfill,setisfill]=useState(false)
     const[isadd,setisadd]=useState(false)
 
@@ -18,7 +40,7 @@ const CardProducat = () => {
      }
     return (
     <>
-       <div className='CardProducat'>
+       <div className='CardProducat' data-aos="fade-up">
         <div className='PicOfProducat'><img src={c1} alt='' className='pic-p'></img></div>
 
         <div className='InfOfProducat'>

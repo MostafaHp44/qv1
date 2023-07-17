@@ -61,11 +61,11 @@
     justify-content: space-around;
     align-items: center;
 }
-.vodafone,
-.master,
-.visa,
-.amrican,
-.paypal
+.vodafone-f,
+.master-f,
+.visa-f,
+.amrican-f,
+.paypal-f
 {
     padding: 1em;
     fill: #fff;

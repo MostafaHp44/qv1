@@ -13,6 +13,8 @@ import Furniture from "../Furniture/Furniture";
 import MP from "../Admin/ManageProduct/MP";
 import ProductPage from "../Product/Producat";
 import ProfileUser from "../User/ProfileUser/ProfileUser";
+import AddToCart from "../AddToCart/AddToCart";
+import FavProducat from "../FavProducat/FavProducat";
 const Links = () => {
     return (
     <div>
@@ -20,6 +22,8 @@ const Links = () => {
         <Route  path="/" element={<Componentss/>}/>
         <Route  path="/login" element={<Login/>}/> 
         <Route path="/register" element={<Register/>}></Route>
+        <Route path="/cart" element={<AddToCart/>}></Route>
+        <Route path="/favitem" element={<FavProducat/>}></Route>
         <Route path="/curtains" element={<Curtains/>}></Route>
         <Route path="/fabricit" element={<FabricIt/>}></Route>
         <Route path="/furniture" element={<Furniture/>}></Route>
