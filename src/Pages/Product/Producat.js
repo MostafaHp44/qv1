@@ -116,9 +116,6 @@ const ProductPage = () => {
                 <div className='SubmitOrder'><button className='btn-submit'>Submit Order</button></div>
                </div>
 
-<<<<<<< HEAD
-             
-=======
                <div className='Box2-Pro'>
 
                <div className='Description'>
@@ -136,9 +133,6 @@ const ProductPage = () => {
                 </div>
               
                </div>
->>>>>>> 2933e25cdb16ef61c7c17c889a9ba2d503688088
-
-              
 
             </div>
 
