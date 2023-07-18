@@ -116,7 +116,27 @@ const ProductPage = () => {
                 <div className='SubmitOrder'><button className='btn-submit'>Submit Order</button></div>
                </div>
 
+<<<<<<< HEAD
              
+=======
+               <div className='Box2-Pro'>
+
+               <div className='Description'>
+                    <div className='Discription-AR'><span className='T1-AR'>الطول:<span className='T2-AR'></span></span></div>
+                    <div className='Discription-AR'><span className='T1-AR'>العرض:<span className='T2-AR'></span></span></div>
+                    <div className='Discription-AR'><span className='T1-AR'>الماده الخام:<span className='T2-AR'></span></span></div>
+
+
+                    <div className='Discription-EN'><span className='T1-EN'>Width:<span className='T2-EN'></span></span></div>
+                    <div className='Discription-EN'><span className='T1-EN'>Weight:<span className='T2-EN'></span></span></div>
+                    <div className='Discription-EN'><span className='T1-EN'>Content:<span className='T2-EN'></span></span></div>
+                    <div className='SubmitOrder'><button className='btn-submit'>Customize IT<Badge pill bg="danger">new</Badge></button></div>
+
+
+                </div>
+              
+               </div>
+>>>>>>> 2933e25cdb16ef61c7c17c889a9ba2d503688088
 
               
 
