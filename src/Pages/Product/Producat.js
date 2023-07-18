@@ -97,6 +97,8 @@ const ProductPage = () => {
                     <div className='Discription-EN'><span className='T1-EN'>Width:<span className='T2-EN'></span></span></div>
                     <div className='Discription-EN'><span className='T1-EN'>Weight:<span className='T2-EN'></span></span></div>
                     <div className='Discription-EN'><span className='T1-EN'>Content:<span className='T2-EN'></span></span></div>
+                    <div className='SubmitOrder'><button className='btn-submit'>Customize IT<Badge pill bg="danger">new</Badge></button></div>
+
 
                 </div>
               
