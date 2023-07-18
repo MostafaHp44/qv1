@@ -1,0 +1,81 @@
+.SmallCard
+{
+  display: grid;
+  transition: 0.7s;
+  border: 1px #fff solid;
+  border-radius: 25px;
+  padding: 1em;
+  margin: 1em;
+}
+.Info-PRO
+{
+  display: grid;
+}
+.SmallCard:hover
+{
+  transition: 0.9s;
+  box-shadow: 1px 1px 10px 4px royalblue;
+}
+.smallimg
+{
+  width: 4em;
+  border-radius: 20px;
+}
+.MainImg
+{
+  text-align: center;
+}
+.colorsproducat
+{
+  width: 2em;
+  border-radius: 30px;
+}
+.small-title-ar
+{
+  font-family: 'Harmattan';
+  font-weight: 700;
+}
+.small-title-en
+{
+  font-family: 'Kalam' ;
+  font-weight: 300;
+}
+.small-price
+{
+  font-family: 'Kalam' ;
+  font-weight: 300;
+}
+.small-Curruncy
+{
+  color: #103178;
+  font-weight: 600;
+  font-family: 'Kalam' ;
+  font-size: 15px;
+}
+.small-availablecolor
+{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-bottom: 0.5em;
+}
+.small-btnmoreinfo
+{
+  border: none;
+  background-color: #F0F0F0;
+  border-radius: 30px;
+  transition: 0.6s;
+}
+.small-btnmoreinfo>a
+{
+  text-decoration: none;
+  color: black;
+  transition: 0.6s;
+}
+.small-btnmoreinfo:hover
+{
+  background-color: #244283;
+  transition: 0.4s;
+  color: #fff;
+
+}

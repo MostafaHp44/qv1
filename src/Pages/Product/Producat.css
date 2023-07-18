@@ -1,16 +1,45 @@
 .MainProducat,
+.Col-1Pro,
 .Col-2Pro,
 .Box1-Pro
 {
     display: grid;
 }
-.Box1-Pro::after,
-.MainProducat::after
+.ThirdPro
 {
-content: "";
 display: block;
-border-bottom: 1px #8d8d8d solid;
+border-top: 1px #8d8d8d solid;
 padding: 2em;
+margin: 5em;
+}
+.SmallImgs
+{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    gap: 1em;
+}
+.TitleColors
+{
+    font-family: 'Kalam' ;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.collectionimg
+{
+    width: 5em;
+    transition: 0.7s;
+}
+.collectionimg:hover
+{
+    box-shadow: 1px 1px 5px 4px royalblue;
+    transition: 0.5s;
+}
+.btn-collectionimg
+{
+    border: none;
+    background-color: #fff;
 }
 .SecPro
 {
@@ -39,6 +68,10 @@ padding: 2em;
     direction: ltr;
     transition: 0.4s;
 }
+.Price-Pro
+{
+    text-align: center;
+}
 .btn-q
 {
     border: none;
@@ -46,16 +79,24 @@ padding: 2em;
     font-family: 'Kalam' ;
     font-weight: 300;
     width: 5em;
+    font-size: 25px;
 }
 .Quantity
 {
     display: flex;
     justify-content: space-around;
+}
+.Q-1,
+.Q-2
+{
+    display: flex;
     gap: 1em;
+    padding-left: 1em;
 }
 .SubmitOrder
 {
     padding-top: 2em;
+    text-align: center;
 }
 .btn-submit
 {
@@ -114,6 +155,12 @@ transition: 0.7s;
     box-shadow: 1px 1px 10px 4px royalblue;
 transition: 0.5s;
 }
+.Box2-Pro
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media only screen and (min-width: 240px ) and (max-width: 1024px ) 
 {

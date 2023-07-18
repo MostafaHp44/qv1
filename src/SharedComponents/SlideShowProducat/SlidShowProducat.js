@@ -1,33 +1,41 @@
-import "./style.css";
-import { useRef } from "react";
-import { motion, useScroll } from "framer-motion";
+import "./SlideShowProducat.css";
+import React, { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+import SmallCard from "../SmallCard/SmallCard";
+
 
 const SlideShowProducat=()=>{
-  const ref = useRef(null);
-  const { scrollXProgress } = useScroll({ container: ref });
+  const [swiperRef, setSwiperRef] = useState(null);
+
+  
+
+  
 
   return (
-    <>
-      <svg id="progress" width="100" height="100" viewBox="0 0 100 100">
-        <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
-        <motion.circle
-          cx="50"
-          cy="50"
-          r="30"
-          pathLength="1"
-          className="indicator"
-          style={{ pathLength: scrollXProgress }}
-        />
-      </svg>
-      <ul ref={ref} className="SlideProducat">
-        <li className="S1">mo</li>
-        <li className="S1">no</li>
-        <li className="S1">ko</li>
-        <li className="S1">yo</li>
+    < div className="MainSlideShowPro">
+      <div className="TopProducat"><span>TopProducat</span></div>
+      <Swiper
+        onSwiper={setSwiperRef}
+        slidesPerView={3}
+        centeredSlides={true}
+        spaceBetween={30}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide><SmallCard/></SwiperSlide>
+        <SwiperSlide><SmallCard/></SwiperSlide>
+        <SwiperSlide><SmallCard/></SwiperSlide>
+        <SwiperSlide><SmallCard/></SwiperSlide>
+      </Swiper>
 
-        
-      </ul>
-    </>
+      
+    </div>
   );
 }
+
 export default SlideShowProducat

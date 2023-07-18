@@ -1,0 +1,56 @@
+.swiper {
+  width: 80em;
+  height: 45em;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+.MainSlideShowPro
+{
+  padding-top: 3em;
+}
+.TopProducat
+{
+  font-family: 'Kalam' ;
+  font-weight: 700;
+  font-size: 5em;
+  text-align: center;
+  transition: 0.7s;
+}
+.TopProducat:hover
+{
+  color: #007aff;
+  transition: 0.5s;
+}

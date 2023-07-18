@@ -1,3 +1,4 @@
+import SlideShowProducat from '../SharedComponents/SlideShowProducat/SlidShowProducat';
 import BurgerMenu from './0-BurgerMenu/BurgerMenu';
 import NavBar from './1-NavBar/NavBar';
 import WGIF from './2-WGIF/WGIF';
@@ -15,6 +16,7 @@ const Componentss = () => {
       <Middel/>
       <Product/>
       <Newsletter/>
+      <SlideShowProducat/>
       <WhyIbrim/>
       <Footer/>
     </div>);
